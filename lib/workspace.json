@@ -1,0 +1,12 @@
+{
+  "workspaces": [
+    {
+      "name": "bin",
+      "pwds": [
+        "/Users/sunlinxiao/Desktop/workist/bin",
+        "/Users/sunlinxiao/Desktop/workist"
+      ]
+    }
+  ],
+  "ide": "code"
+}
