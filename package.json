@@ -1,5 +1,5 @@
 {
-  "name": "workist",
+  "name": "@jslq/workist",
   "version": "1.0.0",
   "description": "anthor way to manage projects different from workspace",
   "main": "index.js",
@@ -29,5 +29,9 @@
     "inquirer": "^6.2.2",
     "inquirer-autocomplete-prompt": "^1.0.1",
     "lowdb": "^1.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }

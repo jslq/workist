@@ -5,7 +5,7 @@
 ## 安装
 
 ```
-$ npm install workist -g
+$ npm install @jslq/workist -g
 ```
 
 ## 帮助
