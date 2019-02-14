@@ -1,6 +1,6 @@
 {
   "name": "@jslq/workist",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "anthor way to manage projects different from workspace",
   "main": "index.js",
   "bin": {
