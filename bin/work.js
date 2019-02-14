@@ -21,14 +21,12 @@ const work = (db) => {
 			const waitForOpen = db.get('workspaces')
 														.find({name: answer.workspace})
 														.value().pwds
-			waitForOpen.forEach(async (_) => {
-				try {
-					await exec(`${ide} ${_}`)
-				} catch(e) {
-					console.log(e)
-					console.log(chalk.blue(ide + ' ' + _) + chalk.red(' open failed!'))
-				}
-			})
+			try {
+				await exec(waitForOpen.map(_ => `${ide} ${_}`).join(' && '))
+			} catch(e) {
+				console.log(e)
+				console.log(chalk.red(' open failed!'))
+			}
 		})
 	})
 }
