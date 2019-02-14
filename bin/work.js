@@ -17,7 +17,7 @@ const work = (db) => {
 					return Promise.resolve(list.filter(_ => _.indexOf(input) > -1))
 				},
 			}
-		]).then((answer) => {
+		]).then(async (answer) => {
 			const waitForOpen = db.get('workspaces')
 														.find({name: answer.workspace})
 														.value().pwds
