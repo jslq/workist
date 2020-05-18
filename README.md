@@ -1,6 +1,6 @@
 # workist
 ------------
-内置vscode快捷键 code
+内置vscode快捷键  code
 
 ## 安装
 
